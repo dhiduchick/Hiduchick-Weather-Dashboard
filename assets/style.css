@@ -123,3 +123,22 @@ h3 {
     background-color: red;
     color: white;
 }
+
+@media screen and (max-width:580px) {
+    .search-panel {
+        width: 40%;
+    }
+    .search-button-panel {
+        margin-left: 0px;
+    }
+    .search-panel h3 {
+        font-size: 20px;
+    }
+    .form-row {
+        display: block;
+        text-align: center;
+    }
+    .results-panel {
+        width: 60%;
+    }
+}
